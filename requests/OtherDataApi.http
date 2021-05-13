@@ -1,0 +1,14 @@
+GET http://127.0.0.1:8082/other-data-api
+Accept:application/json
+
+###
+GET http://127.0.0.1:8082/other-data-api/5
+
+###
+POST http://127.0.0.1:8082/other-data-api
+
+### запрос на создание записи с определенными полями
+POST http://127.0.0.1:8082/other-data-api
+Content-Type: application/json
+
+{"c1":"my new name","c2":123}
